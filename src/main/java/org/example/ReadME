@@ -1,0 +1,18 @@
+The code contains many functions handling various interactions with Telegram bot users in Telegram.
+The code provides api services, web scraping, image processing.
+
+Photo Processing: Adds unique effects to photos sent to the bot:
+  - Black and White
+  - Mirror
+  - Grayscale
+  - Shuffle
+  - Color inversion
+  - Edge detection
+
+Web Scraping: Uses Web scraping to gather information from external websites to deliver live data to users.
+  - Google search, Each result is extracted as a title and link and returned to the user as a text message in the bot.
+  - Data on rivers, It performs processing to extract the names of the rivers and other details.
+
+API:There are 2 API that use to enrich the user experience and provide varied and interactive content.
+  -Joke,Random jokes to add entertaining content to users.
+  -Pokemon, Give pokemon name and id.
